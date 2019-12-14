@@ -101,12 +101,12 @@ echo "ruok" | nc localhost 2181 ; echo
 
 sudo nano /etc/hosts
 
-172.31.81.58 ip-172-31-81-58.ec2.internal zk1
-172.31.81.58 ip-172-31-81-58.ec2.internal kf1
-172.31.90.58 ip-172-31-90-58.ec2.internal zk2
-172.31.90.58 ip-172-31-90-58.ec2.internal kf2
-172.31.84.245 ip-172-31-84-245.ec2.internal zk3
-172.31.84.245 ip-172-31-84-245.ec2.internal kf3
+172.31.36.25 ip-172-31-36-25.ec2.internal zk1
+172.31.36.25 ip-172-31-36-25.ec2.internal kf1
+172.31.33.119 ip-172-31-33-119.ec2.internal zk2
+172.31.33.119 ip-172-31-33-119.ec2.internal kf2
+172.31.40.1 ip-172-31-40-1.ec2.internal zk3
+172.31.40.1 ip-172-31-40-1.ec2.internal kf3
 
 ## Do this on all 3 nodes
 
